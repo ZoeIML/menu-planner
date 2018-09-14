@@ -5,12 +5,15 @@ import { Text, View } from 'react-native'
 
 // imported components
 import CalendarBtn from '../CalendarBtn'
+import WeekTitle from '../WeekTitle'
+import DateTitle from '../DateTitle'
 
 class Header extends React.Component {
     render() {
         return (
             <View>
-                <Text>This is a header</Text>
+                <WeekTitle />
+                <DateTitle />
                 <CalendarBtn />
             </View>
         )
