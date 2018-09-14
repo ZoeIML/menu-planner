@@ -7,6 +7,7 @@ import { Text, View } from 'react-native'
 import CalendarBtn from '../CalendarBtn'
 import WeekTitle from '../WeekTitle'
 import DateTitle from '../DateTitle'
+import WeekContainer from '../WeekContainer'
 
 class Header extends React.Component {
     render() {
@@ -15,6 +16,7 @@ class Header extends React.Component {
                 <WeekTitle />
                 <DateTitle />
                 <CalendarBtn />
+                <WeekContainer />
             </View>
         )
     }
