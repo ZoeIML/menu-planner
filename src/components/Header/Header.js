@@ -8,6 +8,7 @@ import CalendarBtn from '../CalendarBtn'
 import WeekTitle from '../WeekTitle'
 import DateTitle from '../DateTitle'
 import WeekContainer from '../WeekContainer'
+import BtnContainer from '../BtnContainer'
 
 class Header extends React.Component {
     render() {
@@ -17,6 +18,7 @@ class Header extends React.Component {
                 <DateTitle />
                 <CalendarBtn />
                 <WeekContainer />
+                <BtnContainer />
             </View>
         )
     }
